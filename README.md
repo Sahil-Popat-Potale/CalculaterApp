@@ -1,6 +1,6 @@
 # CalculaterApp
 
-#Started on 26th April 2023
+# Started on 26th April 2023
 
 Calculator App for arithmetic operators. This app provides all 5 arithmetic operation initially but it may contain more later on.
 
