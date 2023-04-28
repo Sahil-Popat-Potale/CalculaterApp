@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">CalculaterApp</string>
+    <string name="app_name">Calculator</string>
+    <string name="inp_msg">Type Number Bellow</string>
+    <string name="input">Enter Number</string>
+    <string name="add">Addition</string>
+    <string name="sub">Subtraction</string>
+    <string name="multiply">Multiplication</string>
+    <string name="div">Division</string>
+    <string name="module">Module</string>
+    <string name="result">Results</string>
 </resources>

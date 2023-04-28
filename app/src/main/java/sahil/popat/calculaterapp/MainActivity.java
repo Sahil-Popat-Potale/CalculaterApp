@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         sub();
         mul();
         div();
-        mode();
+        module();
     }
     private void allocate() {
         textView=findViewById(R.id.textView3);
@@ -34,31 +34,31 @@ public class MainActivity extends AppCompatActivity {
         int a=Integer.parseInt(editText1.getText().toString());
         int b=Integer.parseInt(editText2.getText().toString());
         int c=a+b;
-        textView.setText("Addition "+c);
+        textView.setText("Addition  "+c);
     });}
     private void sub() { btn2.setOnClickListener(v -> {
         int a=Integer.parseInt(editText1.getText().toString());
         int b=Integer.parseInt(editText2.getText().toString());
         int c=a-b;
-        textView.setText("Subtraction "+c);
+        textView.setText("Subtraction  "+c);
     });}
     private void mul() {btn3.setOnClickListener(v -> {
         int a=Integer.parseInt(editText1.getText().toString());
         int b=Integer.parseInt(editText2.getText().toString());
         int c=a*b;
-        textView.setText("Multiplication "+c);
+        textView.setText("Multiplication  "+c);
     });}
     private void div() {btn4.setOnClickListener(v -> {
         float a=Integer.parseInt(editText1.getText().toString());
         float b=Integer.parseInt(editText2.getText().toString());
         float c=a/b;
-        textView.setText("Division "+c);
+        textView.setText("Division  "+c);
     });}
-    private void mode() {btn5.setOnClickListener(v -> {
+    private void module() {btn5.setOnClickListener(v -> {
         float a=Integer.parseInt(editText1.getText().toString());
         float b=Integer.parseInt(editText2.getText().toString());
         float c=a%b;
-        textView.setText("Mode "+c);
+        textView.setText("Module  "+c);
     });
     }
 }
