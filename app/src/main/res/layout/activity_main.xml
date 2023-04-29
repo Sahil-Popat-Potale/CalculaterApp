@@ -96,7 +96,8 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginEnd="30dp"
                         android:layout_weight="1"
-                        android:text="@string/add" />
+                        android:text="@string/add"
+                        tools:ignore="ButtonStyle" />
 
                     <Button
                         android:id="@+id/b2"
@@ -105,7 +106,8 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginEnd="30dp"
                         android:layout_weight="1"
-                        android:text="@string/sub" />
+                        android:text="@string/sub"
+                        tools:ignore="ButtonStyle" />
 
                     <Button
                         android:id="@+id/b3"
@@ -114,7 +116,8 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginEnd="30dp"
                         android:layout_weight="1"
-                        android:text="@string/multiply" />
+                        android:text="@string/multiply"
+                        tools:ignore="ButtonStyle,TextContrastCheck" />
 
                     <Button
                         android:id="@+id/b4"
@@ -123,7 +126,8 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginEnd="30dp"
                         android:layout_weight="1"
-                        android:text="@string/div" />
+                        android:text="@string/div"
+                        tools:ignore="ButtonStyle" />
 
                     <Button
                         android:id="@+id/b5"
@@ -132,7 +136,8 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginEnd="30dp"
                         android:layout_weight="1"
-                        android:text="@string/module" />
+                        android:text="@string/module"
+                        tools:ignore="ButtonStyle" />
                 </LinearLayout>
             </HorizontalScrollView>
 
